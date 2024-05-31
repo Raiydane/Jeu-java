@@ -19,7 +19,7 @@ public class GamePanel extends JPanel {
     private final int NEW_HEIGHT = 50;
     private final int CUBE_SIZE = 40;
 
-    public GamePanel() {
+    public GamePanel() { //
         ImageIcon marioIcon = new ImageIcon("res/mario.png");
         marioImage = marioIcon.getImage().getScaledInstance(NEW_WIDTH, NEW_HEIGHT, Image.SCALE_SMOOTH);
         ImageIcon backgroundIcon = new ImageIcon("res/plateau.png");
